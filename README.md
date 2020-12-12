@@ -15,7 +15,7 @@ JdbF is an JDBC-based object-relational mapping that allows Java developers to q
 
 Jdbf's structure is logically composed from two main modules. These are listed below.
 - MMS (Mapping Management System),
-- SMS (Sql Management System).
+- SMS (SQL Management System).
 
 ## Mapping Management System
 
@@ -31,11 +31,11 @@ Mapping Management System manages mapping between Java objects and database. Thi
 </repositoryView>
 ```
 	  
-Mapping is very simple. Mapping between column table and property of Java object is specified with tag <item/> where is specified the name of property, the name of column and other information. From this file JdbF will create in automatically and trasparently way the SQL statement, using other important module, SMS.
+Mapping is very simple. Mapping between column table and property of Java object is specified with tag <item/> where is specified the name of property, the name of column and other information. From this file JdbF will create in automatically and trasparently way the SQL statement, using other important module SMS.
 
-## Sql Management System
+## SQL Management System
 
-Sql Management System is more modular system that MMS. In fact it is composed from other modules which are delegated to manage the operation that occur between creation of sql statement ant its execution.
+SQL Management System is more modular system that MMS. In fact it is composed from other modules which are delegated to manage the operation that occur between creation of sql statement ant its execution.
 
 These modules are.
 
@@ -58,6 +58,7 @@ JdbF need configuration to work well. This configuration is very simple. Configu
 configure file that defines the connection to various databases.
 
 ## Supported database
+
 Jdbf supports following relational database:
 - mysql,
 - Oracle,
