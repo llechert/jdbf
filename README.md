@@ -59,7 +59,7 @@ configure file that defines the connection to various databases.
 
 ## Supported database
 
-Jdbf supports following relational database:
+JdbF supports following relational database:
 - mysql,
 - Oracle,
 - PostgreSQL,
