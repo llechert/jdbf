@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<repository>
+
+	<repositoryView name="product" table-name="Product" object-name="Product" database-name="jdbf">
+	    <item property-name="OID" primary-key="yes" data-type="int" column-name="id" />
+	    <item property-name="name" primary-key="no" data-type="string" column-name="name" />
+	    <item property-name="price" primary-key="no" data-type="int" column-name="price" />          
+	    <item property-name="groupId" primary-key="no" data-type="int" column-name="group_id" />          
+	    <key-generator type="max"/>  
+	</repositoryView>
+	<!--
+	<repositoryView name="orderline" table-name="orderline" object-name="OrderLine" database-name="jdbf">
+	    <item property-name="OID" primary-key="yes" data-type="int" column-name="order_id" />
+	    <item property-name="lineId" primary-key="yes" data-type="int" column-name="line_id" />
+	    <item property-name="productId" primary-key="no" data-type="int" column-name="product_id" />
+	</repositoryView>
+	-->      
+<!--
+<key-generator type="identity"/>
+<key-generator type="sequence"/>
+<key-generator type="highlow" table="keyGenerators" tableColumn="tablename" keyColumn="keyColumn" nextColumn="nextLow"/>
+-->
+	
+</repository>

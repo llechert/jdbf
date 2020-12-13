@@ -1,0 +1,5 @@
+Manifest-Version: beta version
+Implementation-Vendor: "org.jdbf"
+Implementation-Title: "JDBF Beta version"
+Implementation-Version: "Beta Version"
+Class-Path: xercesImpl.jar xalan.jar jta-1_0_1.jar xml-apis.jar utilities.jar

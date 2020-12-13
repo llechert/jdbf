@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<databases>
+   <database>
+	  <name>jdbf</name>
+	  <vendor>Mysql</vendor>	
+	  <dbDriver>com.mysql.jdbc.Driver</dbDriver>
+	  <dbServer>jdbc:mysql://localhost/jdbf</dbServer>
+  	  <dbLogin>jdbf</dbLogin>
+	  <dbPassword>jdbf</dbPassword> 	
+   </database>
+</databases>
